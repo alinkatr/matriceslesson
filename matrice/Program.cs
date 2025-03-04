@@ -19,7 +19,7 @@ class Program
         if (detMain == Complex.Zero)
         {
             Console.WriteLine("Система не имеет единого решения (детерминант равен нулю).");
-            return;
+            return;//выход из метода 
         }
 
         
